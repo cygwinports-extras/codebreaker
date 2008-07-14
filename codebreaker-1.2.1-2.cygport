@@ -1,0 +1,6 @@
+DESCRIPTION="GTK+ Mastermind game"
+HOMEPAGE="http://packages.debian.org/source/codebreaker"
+SRC_URI="mirror://debian/pool/main/${PN:0:1}/${PN}/${PN}_${PV}.orig.tar.gz"
+SRC_DIR="${P}.orig"
+
+DISTCLEANFILES="install-sh missing mkinstalldirs"

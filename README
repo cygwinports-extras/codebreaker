@@ -1,0 +1,61 @@
+codebreaker
+-------------------------------------------
+Code Breaker is a computerized variation of 'MasterMind'(R)
+(Pressman(R)) for GTK+
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  glib-1.2.10-4
+  gtk+-1.2.10-3
+
+Build requirements:
+  autoconf2.5-2.61-1
+  automake1.4-1.4p6-4
+  binutils-20080523-2
+  cygport-0.3.12-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://packages.debian.org/codebreaker
+
+Canonical download:
+  http://ftp.debian.org/debian/pool/main/c/codebreaker/
+
+-------------------------------------------
+
+Build instructions:
+  unpack codebreaker-1.2.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./codebreaker-1.2.1-X.cygport all
+
+This will create:
+  /usr/src/codebreaker-1.2.1-X-src.tar.bz2
+  /usr/src/codebreaker-1.2.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/codebreaker.exe
+  /usr/share/doc/codebreaker-1.2.1/AUTHORS
+  /usr/share/doc/codebreaker-1.2.1/HOWTO
+  /usr/share/doc/codebreaker-1.2.1/README
+
+------------------
+
+Port Notes:
+
+----- version 1.2.1-2 -----
+Rebuilt with cygport.
+
+----- version 1.2.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
